@@ -1,0 +1,488 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar  .searchbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 8px;
+    top: -3px;
+    background: #111111;;
+    border-radius: 50%;
+    padding: 14px;
+    margin-left: 10px;
+   
+}
+
+.searchIcon{
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: #FAFF06;
+}
+
+.Account{
+    position: absolute;
+    left: 0;
+    top: 28px;
+    font-size: 12px;
+    width: 100px;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #FD9B07 !important;
+}
+
+.nav_middle a{
+    color: #000000 !important;
+}
+
+.devide_nav{
+    border: 1px solid #BEBABA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.carousel-indicators [data-bs-target]{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(143, 247, 46) !important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 3.25rem;
+    padding-bottom: 8.50rem !important;
+    color: #000000!important;
+    text-align: center;
+}
+
+.carousel-caption p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.carousel-caption h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #FD9B07;
+
+}
+
+/* Products Csss */
+
+.Products{
+    margin-top: 125px;
+}
+
+.Products .Products_bg1{
+    background: url('./assets/Img/banner1.png') no-repeat;
+    width: 98%;
+    
+    background-position: right;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.Products .Products_bg2{
+    background: url('./assets/Img/banner2.png') no-repeat;
+    width: 98%;
+    margin-left: auto;
+    background-position: right;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.product_button{
+    background: #FD9B07;
+     border-radius: 26px;
+     border: none;
+     padding: 5px 10px;
+     margin-top: 30px;
+     color: #FFFFFF;
+     transition: 0.2s;
+}
+
+/*---------------------------- 
+         Login Css 
+-----------------------------*/
+.Login{
+    background: url('./assets/Img/login1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    color: #000000;
+    font-style: normal;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+.Login_bg{
+    position: absolute;
+   background: #9b8f2262;
+   width: 100%;
+    height:100vh;
+}
+.Signin_Up{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 48px !important;
+    margin-bottom: 10px !important;
+
+}
+.Login_sideBG{
+    background: url('./assets/Img/login2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: right;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 85vh;
+}
+
+button {
+    margin: 20px;
+  }
+
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  .btn-7 {
+    background: linear-gradient(0deg, #0b5ed7 0%, #0b5ed7 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .btn-7 span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .btn-7:before,
+    .btn-7:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7:before{
+       height: 0%;
+       width: 2px;
+    }
+    .btn-7:after {
+      width: 0%;
+      height: 2px;
+    }
+    .btn-7:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .btn-7:hover:before {
+      height: 100%;
+    }
+    .btn-7:hover:after {
+      width: 100%;
+    }
+    .btn-7 span:before,
+    .btn-7 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .btn-7 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .btn-7 span:hover:before {
+      height: 100%;
+    }
+    .btn-7 span:hover:after {
+      width: 100%;
+    }
+    
+    .wrapper {
+      display: inline-flex;
+      list-style: none;
+    }
+    
+    .wrapper .icon {
+      position: relative;
+      background: #ffffff;
+      border-radius: 50%;
+      padding: 15px;
+      margin: 10px;
+      width: 50px;
+      height: 50px;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    .wrapper .tooltip {
+      position: absolute;
+      top: 0;
+      font-size: 14px;
+      background: #ffffff;
+      color: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    .wrapper .tooltip::before {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 8px;
+      background: #ffffff;
+      bottom: -3px;
+      left: 50%;
+      transform: translate(-50%) rotate(45deg);
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    .wrapper .icon:hover .tooltip {
+      top: -45px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+    
+    .wrapper .icon:hover span,
+    .wrapper .icon:hover .tooltip {
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    .wrapper .facebook:hover,
+    .wrapper .facebook:hover .tooltip,
+    .wrapper .facebook:hover .tooltip::before {
+      background: #1877F2;
+      color: #ffffff;
+    }
+    
+    .wrapper .twitter:hover,
+    .wrapper .twitter:hover .tooltip,
+    .wrapper .twitter:hover .tooltip::before {
+      background: #1DA1F2;
+      color: #ffffff;
+    }
+    
+    .wrapper .instagram:hover,
+    .wrapper .instagram:hover .tooltip,
+    .wrapper .instagram:hover .tooltip::before {
+      background: #C13584;
+      color: #ffffff;
+    }
+    
+    .wrapper .github:hover,
+    .wrapper .github:hover .tooltip,
+    .wrapper .github:hover .tooltip::before {
+      background: #333333;
+      color: #ffffff;
+    }
+    
+    .wrapper .youtube:hover,
+    .wrapper .youtube:hover .tooltip,
+    .wrapper .youtube:hover .tooltip::before {
+      background: rgb(255, 0, 0);
+      color: #ffffff;
+    }
+    /* //sidebar */
+    .bOQEtf {
+      position: relative;
+      border-right: 1px solid #efefef;
+      width: 20% !important;
+      min-width: 20% !important;
+      -webkit-transition: width,left,right,300ms;
+      transition: width,left,right,300ms;
+  }
+
+  .sidebar_active{
+   color: #1877F2;
+  }
+  
+  .Catagory_head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+  }
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #02020238;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+
+  
+  .Cat:hover   .overlay{
+    border-radius: 50%;
+  bottom: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+
+ 
+}
+
+    /* Fruits Page Design */
+
+    .Fruits{
+      margin-top: 125px;
+  }
+  
+  .Fruits .Products_bg1{
+      background: url('./assets/Img/Organic-Tuna-Dry-Fish.jpg') no-repeat;
+      width: 100%;
+      
+      background-position: right;
+      height: 350px;
+      display: flex;
+      align-items: center;
+  }
+ 
+  
+  
+  .Fruits .Products_bg2{
+      background: url('./assets/Img/Chapa-Shutki-300x300.jpeg') no-repeat;
+      width: 100%;
+      margin-left: auto;
+      background-position: right;
+      height: 350px;
+      display: flex;
+      align-items: center;
+  }
+  .Fruits .Products_bg3{
+    background: url('./assets/Img/Chapa-Shutki-300x300.jpeg') no-repeat;
+    width: 100%;
+    margin-left: auto;
+    background-position: right;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.Fruits .Products_bg4{
+  background: url('./assets/Img/Chapa-Shutki-300x300.jpeg') no-repeat;
+  width: 100%;
+  margin-left: auto;
+  background-position: right;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+  
+  .product_button{
+      background: #FD9B07;
+       border-radius: 26px;
+       border: none;
+       padding: 5px 10px;
+       margin-top: 30px;
+       color: #FFFFFF;
+       transition: 0.2s;
+  }
